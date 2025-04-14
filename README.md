@@ -62,11 +62,6 @@ npm start
 
 3. Open http://localhost:3000 in your browser
 
-## API Endpoints
-
-- `POST /api/upload` - Upload and find similar pets
-- `GET /api/pets` - Get all pets in database
-- `GET /api/initialize_db` - Initialize the database
 
 ## Model Details
 
@@ -74,18 +69,6 @@ npm start
 - Feature extraction: 2048-dimensional vectors
 - Similarity metric: Combined cosine similarity and color histogram
 - Cache system: Pickle-based feature caching
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
