@@ -1,425 +1,722 @@
-{
-    "Unknown-10.jpeg": {
+[
+    {
         "name": "Buddy 1",
+        "gender": "Male",
         "owner_name": "Owner 1",
-        "contact": "Phone: (555) 123-4000",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4000",
         "description": "A lovely Golden Retriever. Friendly and loves to play!",
         "breed": "Golden Retriever",
         "age": "1 years",
-        "location": "New York, USA"
+        "location": "123 Main St, New York, USA",
+        "local_image": "A1744860960431.jpg"
     },
-    "649527178.jpeg": {
+    {
         "name": "Buddy 2",
+        "gender": "Female",
         "owner_name": "Owner 2",
-        "contact": "Phone: (555) 123-4001",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4001",
         "description": "A lovely Labrador. Friendly and loves to play!",
         "breed": "Labrador",
         "age": "2 years",
-        "location": "New York, USA"
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A1744860939791.jpg"
     },
-    "images-3.jpeg": {
+    {
         "name": "Buddy 3",
+        "gender": "Male",
         "owner_name": "Owner 3",
-        "contact": "Phone: (555) 123-4002",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4002",
         "description": "A lovely Husky. Friendly and loves to play!",
         "breed": "Husky",
         "age": "3 years",
-        "location": "New York, USA"
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A818191.jpg"
     },
-    "Unknown-1.jpeg": {
+    {
         "name": "Buddy 4",
+        "gender": "Female",
         "owner_name": "Owner 4",
-        "contact": "Phone: (555) 123-4003",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4003",
         "description": "A lovely German Shepherd. Friendly and loves to play!",
         "breed": "German Shepherd",
         "age": "4 years",
-        "location": "New York, USA"
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A818147.jpg"
     },
-    "images-10.jpeg": {
+    {
         "name": "Buddy 5",
+        "gender": "Male",
         "owner_name": "Owner 5",
-        "contact": "Phone: (555) 123-4004",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4004",
         "description": "A lovely Poodle. Friendly and loves to play!",
         "breed": "Poodle",
         "age": "5 years",
-        "location": "New York, USA"
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A818219.jpg"
     },
-    "Unknown-3 copy.jpeg": {
+    {
         "name": "Buddy 6",
+        "gender": "Female",
         "owner_name": "Owner 6",
-        "contact": "Phone: (555) 123-4005",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4005",
         "description": "A lovely Bulldog. Friendly and loves to play!",
         "breed": "Bulldog",
         "age": "6 years",
-        "location": "New York, USA"
+        "location": "123 Main St, New York, USA",
+        "local_image": "A818192.jpg"
     },
-    "images-11.jpeg": {
+    {
         "name": "Buddy 7",
+        "gender": "Male",
         "owner_name": "Owner 7",
-        "contact": "Phone: (555) 123-4006",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4006",
         "description": "A lovely Beagle. Friendly and loves to play!",
         "breed": "Beagle",
         "age": "7 years",
-        "location": "New York, USA"
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A1744860942283.jpg"
     },
-    "images.jpeg": {
+    {
         "name": "Buddy 8",
+        "gender": "Female",
         "owner_name": "Owner 8",
-        "contact": "Phone: (555) 123-4007",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4007",
         "description": "A lovely Siamese Cat. Friendly and loves to play!",
         "breed": "Siamese Cat",
         "age": "8 years",
-        "location": "New York, USA"
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A817048.jpg"
     },
-    "images-2.jpeg": {
+    {
         "name": "Buddy 9",
+        "gender": "Male",
         "owner_name": "Owner 9",
-        "contact": "Phone: (555) 123-4008",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4008",
         "description": "A lovely Persian Cat. Friendly and loves to play!",
         "breed": "Persian Cat",
         "age": "9 years",
-        "location": "New York, USA"
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A1744860948585.jpg"
     },
-    "649774051.jpeg": {
+    {
         "name": "Buddy 10",
+        "gender": "Female",
         "owner_name": "Owner 10",
-        "contact": "Phone: (555) 123-4009",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4009",
         "description": "A lovely Maine Coon. Friendly and loves to play!",
         "breed": "Maine Coon",
         "age": "10 years",
-        "location": "New York, USA"
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A817930.jpg"
     },
-    "Unknown-11.jpeg": {
+    {
         "name": "Buddy 11",
+        "gender": "Male",
         "owner_name": "Owner 11",
-        "contact": "Phone: (555) 123-4010",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4010",
         "description": "A lovely Ragdoll. Friendly and loves to play!",
         "breed": "Ragdoll",
         "age": "1 years",
-        "location": "New York, USA"
+        "location": "123 Main St, New York, USA",
+        "local_image": "A1744860933481.jpg"
     },
-    "de03b4501c804cc011be04f6d65d7156.jpg": {
+    {
         "name": "Buddy 12",
+        "gender": "Female",
         "owner_name": "Owner 12",
-        "contact": "Phone: (555) 123-4011",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4011",
         "description": "A lovely Bengal Cat. Friendly and loves to play!",
         "breed": "Bengal Cat",
         "age": "2 years",
-        "location": "New York, USA"
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A1744860965566.jpg"
     },
-    "649958414.jpeg": {
+    {
         "name": "Buddy 13",
+        "gender": "Male",
         "owner_name": "Owner 13",
-        "contact": "Phone: (555) 123-4012",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4012",
         "description": "A lovely Tabby Cat. Friendly and loves to play!",
         "breed": "Tabby Cat",
         "age": "3 years",
-        "location": "New York, USA"
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A818235.jpg"
     },
-    "images-5.jpeg": {
+    {
         "name": "Buddy 14",
+        "gender": "Female",
         "owner_name": "Owner 14",
-        "contact": "Phone: (555) 123-4013",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4013",
         "description": "A lovely Golden Retriever. Friendly and loves to play!",
         "breed": "Golden Retriever",
         "age": "4 years",
-        "location": "New York, USA"
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A1744860947276.jpg"
     },
-    "Unknown-7.jpeg": {
+    {
         "name": "Buddy 15",
+        "gender": "Male",
         "owner_name": "Owner 15",
-        "contact": "Phone: (555) 123-4014",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4014",
         "description": "A lovely Labrador. Friendly and loves to play!",
         "breed": "Labrador",
         "age": "5 years",
-        "location": "New York, USA"
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A1744860944838.jpg"
     },
-    "649958418.jpeg": {
+    {
         "name": "Buddy 16",
+        "gender": "Female",
         "owner_name": "Owner 16",
-        "contact": "Phone: (555) 123-4015",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4015",
         "description": "A lovely Husky. Friendly and loves to play!",
         "breed": "Husky",
         "age": "6 years",
-        "location": "New York, USA"
+        "location": "123 Main St, New York, USA",
+        "local_image": "A1744860961689.jpg"
     },
-    "Unknown-16.jpeg": {
+    {
         "name": "Buddy 17",
+        "gender": "Male",
         "owner_name": "Owner 17",
-        "contact": "Phone: (555) 123-4016",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4016",
         "description": "A lovely German Shepherd. Friendly and loves to play!",
         "breed": "German Shepherd",
         "age": "7 years",
-        "location": "New York, USA"
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A1744860957879.jpg"
     },
-    "images-9.jpeg": {
+    {
         "name": "Buddy 18",
+        "gender": "Female",
         "owner_name": "Owner 18",
-        "contact": "Phone: (555) 123-4017",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4017",
         "description": "A lovely Poodle. Friendly and loves to play!",
         "breed": "Poodle",
         "age": "8 years",
-        "location": "New York, USA"
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A818086.jpg"
     },
-    "IMG_7848.jpg": {
+    {
         "name": "Buddy 19",
+        "gender": "Male",
         "owner_name": "Owner 19",
-        "contact": "Phone: (555) 123-4018",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4018",
         "description": "A lovely Bulldog. Friendly and loves to play!",
         "breed": "Bulldog",
         "age": "9 years",
-        "location": "New York, USA"
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A818092.jpg"
     },
-    "649910319.jpeg": {
+    {
         "name": "Buddy 20",
+        "gender": "Female",
         "owner_name": "Owner 20",
-        "contact": "Phone: (555) 123-4019",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4019",
         "description": "A lovely Beagle. Friendly and loves to play!",
         "breed": "Beagle",
         "age": "10 years",
-        "location": "New York, USA"
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A817766.jpg"
     },
-    "649958423.jpeg": {
+    {
         "name": "Buddy 21",
+        "gender": "Male",
         "owner_name": "Owner 21",
-        "contact": "Phone: (555) 123-4020",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4020",
         "description": "A lovely Siamese Cat. Friendly and loves to play!",
         "breed": "Siamese Cat",
         "age": "1 years",
-        "location": "New York, USA"
+        "location": "123 Main St, New York, USA",
+        "local_image": "A1744860937331.jpg"
     },
-    "images-8.jpeg": {
+    {
         "name": "Buddy 22",
+        "gender": "Female",
         "owner_name": "Owner 22",
-        "contact": "Phone: (555) 123-4021",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4021",
         "description": "A lovely Persian Cat. Friendly and loves to play!",
         "breed": "Persian Cat",
         "age": "2 years",
-        "location": "New York, USA"
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A818130.jpg"
     },
-    "Unknown-6.jpeg": {
+    {
         "name": "Buddy 23",
+        "gender": "Male",
         "owner_name": "Owner 23",
-        "contact": "Phone: (555) 123-4022",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4022",
         "description": "A lovely Maine Coon. Friendly and loves to play!",
         "breed": "Maine Coon",
         "age": "3 years",
-        "location": "New York, USA"
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A1744860956526.jpg"
     },
-    "images-4.jpeg": {
+    {
         "name": "Buddy 24",
+        "gender": "Female",
         "owner_name": "Owner 24",
-        "contact": "Phone: (555) 123-4023",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4023",
         "description": "A lovely Ragdoll. Friendly and loves to play!",
         "breed": "Ragdoll",
         "age": "4 years",
-        "location": "New York, USA"
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A1744860964351.jpg"
     },
-    "649953734.jpeg": {
+    {
         "name": "Buddy 25",
+        "gender": "Male",
         "owner_name": "Owner 25",
-        "contact": "Phone: (555) 123-4024",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4024",
         "description": "A lovely Bengal Cat. Friendly and loves to play!",
         "breed": "Bengal Cat",
         "age": "5 years",
-        "location": "New York, USA"
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A818087.jpg"
     },
-    "Unknown-5.jpeg": {
+    {
         "name": "Buddy 26",
+        "gender": "Female",
         "owner_name": "Owner 26",
-        "contact": "Phone: (555) 123-4025",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4025",
         "description": "A lovely Tabby Cat. Friendly and loves to play!",
         "breed": "Tabby Cat",
         "age": "6 years",
-        "location": "New York, USA"
+        "location": "123 Main St, New York, USA",
+        "local_image": "A818085.jpg"
     },
-    "images-7.jpeg": {
+    {
         "name": "Buddy 27",
+        "gender": "Male",
         "owner_name": "Owner 27",
-        "contact": "Phone: (555) 123-4026",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4026",
         "description": "A lovely Golden Retriever. Friendly and loves to play!",
         "breed": "Golden Retriever",
         "age": "7 years",
-        "location": "New York, USA"
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A818126.jpg"
     },
-    "Unknown-9.jpeg": {
+    {
         "name": "Buddy 28",
+        "gender": "Female",
         "owner_name": "Owner 28",
-        "contact": "Phone: (555) 123-4027",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4027",
         "description": "A lovely Labrador. Friendly and loves to play!",
         "breed": "Labrador",
         "age": "8 years",
-        "location": "New York, USA"
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A1744860968150.jpg"
     },
-    "Unknown-14.jpeg": {
+    {
         "name": "Buddy 29",
+        "gender": "Male",
         "owner_name": "Owner 29",
-        "contact": "Phone: (555) 123-4028",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4028",
         "description": "A lovely Husky. Friendly and loves to play!",
         "breed": "Husky",
         "age": "9 years",
-        "location": "New York, USA"
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A1744860966800.jpg"
     },
-    "Unknown-15.jpeg": {
+    {
         "name": "Buddy 30",
+        "gender": "Female",
         "owner_name": "Owner 30",
-        "contact": "Phone: (555) 123-4029",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4029",
         "description": "A lovely German Shepherd. Friendly and loves to play!",
         "breed": "German Shepherd",
         "age": "10 years",
-        "location": "New York, USA"
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A817566.jpg"
     },
-    "Unknown-8.jpeg": {
+    {
         "name": "Buddy 31",
+        "gender": "Male",
         "owner_name": "Owner 31",
-        "contact": "Phone: (555) 123-4030",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4030",
         "description": "A lovely Poodle. Friendly and loves to play!",
         "breed": "Poodle",
         "age": "1 years",
-        "location": "New York, USA"
+        "location": "123 Main St, New York, USA",
+        "local_image": "A818127.jpg"
     },
-    "images-6.jpeg": {
+    {
         "name": "Buddy 32",
+        "gender": "Female",
         "owner_name": "Owner 32",
-        "contact": "Phone: (555) 123-4031",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4031",
         "description": "A lovely Bulldog. Friendly and loves to play!",
         "breed": "Bulldog",
         "age": "2 years",
-        "location": "New York, USA"
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A1744860932110.jpg"
     },
-    "Unknown-4.jpeg": {
+    {
         "name": "Buddy 33",
+        "gender": "Male",
         "owner_name": "Owner 33",
-        "contact": "Phone: (555) 123-4032",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4032",
         "description": "A lovely Beagle. Friendly and loves to play!",
         "breed": "Beagle",
         "age": "3 years",
-        "location": "New York, USA"
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A817985.jpg"
     },
-    "649958397.jpeg": {
+    {
         "name": "Buddy 34",
+        "gender": "Female",
         "owner_name": "Owner 34",
-        "contact": "Phone: (555) 123-4033",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4033",
         "description": "A lovely Siamese Cat. Friendly and loves to play!",
         "breed": "Siamese Cat",
         "age": "4 years",
-        "location": "New York, USA"
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A1744860953923.jpg"
     },
-    "cute-happy-pup.webp": {
+    {
         "name": "Buddy 35",
+        "gender": "Male",
         "owner_name": "Owner 35",
-        "contact": "Phone: (555) 123-4034",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4034",
         "description": "A lovely Persian Cat. Friendly and loves to play!",
         "breed": "Persian Cat",
         "age": "5 years",
-        "location": "New York, USA"
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A1744860951311.jpg"
     },
-    "649958426.jpeg": {
+    {
         "name": "Buddy 36",
+        "gender": "Female",
         "owner_name": "Owner 36",
-        "contact": "Phone: (555) 123-4035",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4035",
         "description": "A lovely Maine Coon. Friendly and loves to play!",
         "breed": "Maine Coon",
         "age": "6 years",
-        "location": "New York, USA"
+        "location": "123 Main St, New York, USA",
+        "local_image": "A818121.jpg"
     },
-    "Unknown-12.jpeg": {
+    {
         "name": "Buddy 37",
+        "gender": "Male",
         "owner_name": "Owner 37",
-        "contact": "Phone: (555) 123-4036",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4036",
         "description": "A lovely Ragdoll. Friendly and loves to play!",
         "breed": "Ragdoll",
         "age": "7 years",
-        "location": "New York, USA"
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A817825.jpg"
     },
-    "images-12.jpeg": {
+    {
         "name": "Buddy 38",
+        "gender": "Female",
         "owner_name": "Owner 38",
-        "contact": "Phone: (555) 123-4037",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4037",
         "description": "A lovely Bengal Cat. Friendly and loves to play!",
         "breed": "Bengal Cat",
         "age": "8 years",
-        "location": "New York, USA"
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A1744860950017.jpg"
     },
-    "Unknown-3.jpeg": {
+    {
         "name": "Buddy 39",
+        "gender": "Male",
         "owner_name": "Owner 39",
-        "contact": "Phone: (555) 123-4038",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4038",
         "description": "A lovely Tabby Cat. Friendly and loves to play!",
         "breed": "Tabby Cat",
         "age": "9 years",
-        "location": "New York, USA"
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A815804.jpg"
     },
-    "images-1.jpeg": {
+    {
         "name": "Buddy 40",
+        "gender": "Female",
         "owner_name": "Owner 40",
-        "contact": "Phone: (555) 123-4039",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4039",
         "description": "A lovely Golden Retriever. Friendly and loves to play!",
         "breed": "Golden Retriever",
         "age": "10 years",
-        "location": "New York, USA"
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A818113.jpg"
     },
-    "649922133.jpeg": {
+    {
         "name": "Buddy 41",
+        "gender": "Male",
         "owner_name": "Owner 41",
-        "contact": "Phone: (555) 123-4040",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4040",
         "description": "A lovely Labrador. Friendly and loves to play!",
         "breed": "Labrador",
         "age": "1 years",
-        "location": "New York, USA"
+        "location": "123 Main St, New York, USA",
+        "local_image": "A1744860934801.jpg"
     },
-    "Unknown-2.jpeg": {
+    {
         "name": "Buddy 42",
+        "gender": "Female",
         "owner_name": "Owner 42",
-        "contact": "Phone: (555) 123-4041",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4041",
         "description": "A lovely Husky. Friendly and loves to play!",
         "breed": "Husky",
         "age": "2 years",
-        "location": "New York, USA"
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A1744860941050.jpg"
     },
-    "649958407.jpeg": {
+    {
         "name": "Buddy 43",
+        "gender": "Male",
         "owner_name": "Owner 43",
-        "contact": "Phone: (555) 123-4042",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4042",
         "description": "A lovely German Shepherd. Friendly and loves to play!",
         "breed": "German Shepherd",
         "age": "3 years",
-        "location": "New York, USA"
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A1744860963034.jpg"
     },
-    "638416630.jpeg": {
+    {
         "name": "Buddy 44",
+        "gender": "Female",
         "owner_name": "Owner 44",
-        "contact": "Phone: (555) 123-4043",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4043",
         "description": "A lovely Poodle. Friendly and loves to play!",
         "breed": "Poodle",
         "age": "4 years",
-        "location": "New York, USA"
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A817768.jpg"
     },
-    "Unknown.jpeg": {
+    {
         "name": "Buddy 45",
+        "gender": "Male",
         "owner_name": "Owner 45",
-        "contact": "Phone: (555) 123-4044",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4044",
         "description": "A lovely Bulldog. Friendly and loves to play!",
         "breed": "Bulldog",
         "age": "5 years",
-        "location": "New York, USA"
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A1744860938541.jpg"
     },
-    "Unknown-13.jpeg": {
+    {
         "name": "Buddy 46",
+        "gender": "Female",
         "owner_name": "Owner 46",
-        "contact": "Phone: (555) 123-4045",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4045",
         "description": "A lovely Beagle. Friendly and loves to play!",
         "breed": "Beagle",
         "age": "6 years",
-        "location": "New York, USA"
+        "location": "123 Main St, New York, USA",
+        "local_image": "A817839.jpg"
     },
-    "cpm35 2023-08-01 215255.361.JPG": {
+    {
         "name": "Buddy 47",
+        "gender": "Male",
         "owner_name": "Owner 47",
-        "contact": "Phone: (555) 123-4046",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4046",
         "description": "A lovely Siamese Cat. Friendly and loves to play!",
         "breed": "Siamese Cat",
         "age": "7 years",
-        "location": "New York, USA"
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A1744860952599.jpg"
+    },
+    {
+        "name": "Buddy 48",
+        "gender": "Female",
+        "owner_name": "Owner 48",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4047",
+        "description": "A lovely Persian Cat. Friendly and loves to play!",
+        "breed": "Persian Cat",
+        "age": "8 years",
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A818128.jpg"
+    },
+    {
+        "name": "Buddy 49",
+        "gender": "Male",
+        "owner_name": "Owner 49",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4048",
+        "description": "A lovely Maine Coon. Friendly and loves to play!",
+        "breed": "Maine Coon",
+        "age": "9 years",
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A817804.jpg"
+    },
+    {
+        "name": "Buddy 50",
+        "gender": "Female",
+        "owner_name": "Owner 50",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4049",
+        "description": "A lovely Ragdoll. Friendly and loves to play!",
+        "breed": "Ragdoll",
+        "age": "10 years",
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A1744860943550.jpg"
+    },
+    {
+        "name": "Buddy 51",
+        "gender": "Male",
+        "owner_name": "Owner 51",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4050",
+        "description": "A lovely Bengal Cat. Friendly and loves to play!",
+        "breed": "Bengal Cat",
+        "age": "1 years",
+        "location": "123 Main St, New York, USA",
+        "local_image": "A1744860936093.jpg"
+    },
+    {
+        "name": "Buddy 52",
+        "gender": "Female",
+        "owner_name": "Owner 52",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4051",
+        "description": "A lovely Tabby Cat. Friendly and loves to play!",
+        "breed": "Tabby Cat",
+        "age": "2 years",
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A817724.jpg"
+    },
+    {
+        "name": "Buddy 53",
+        "gender": "Male",
+        "owner_name": "Owner 53",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4052",
+        "description": "A lovely Golden Retriever. Friendly and loves to play!",
+        "breed": "Golden Retriever",
+        "age": "3 years",
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A818010.jpg"
+    },
+    {
+        "name": "Buddy 54",
+        "gender": "Female",
+        "owner_name": "Owner 54",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4053",
+        "description": "A lovely Labrador. Friendly and loves to play!",
+        "breed": "Labrador",
+        "age": "4 years",
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A1744860946013.jpg"
+    },
+    {
+        "name": "Buddy 55",
+        "gender": "Male",
+        "owner_name": "Owner 55",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4054",
+        "description": "A lovely Husky. Friendly and loves to play!",
+        "breed": "Husky",
+        "age": "5 years",
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A818159.jpg"
+    },
+    {
+        "name": "Buddy 56",
+        "gender": "Female",
+        "owner_name": "Owner 56",
+        "shelter_name": "Happy Paws Rescue",
+        "contact": "Shelter Hotline: (555) 123-4055",
+        "description": "A lovely German Shepherd. Friendly and loves to play!",
+        "breed": "German Shepherd",
+        "age": "6 years",
+        "location": "123 Main St, New York, USA",
+        "local_image": "A818213.jpg"
+    },
+    {
+        "name": "Buddy 57",
+        "gender": "Male",
+        "owner_name": "Owner 57",
+        "shelter_name": "Second Chance Animal Shelter",
+        "contact": "Shelter Hotline: (555) 123-4056",
+        "description": "A lovely Poodle. Friendly and loves to play!",
+        "breed": "Poodle",
+        "age": "7 years",
+        "location": "456 Oak Ave, Los Angeles, USA",
+        "local_image": "A1744860930793.jpg"
+    },
+    {
+        "name": "Buddy 58",
+        "gender": "Female",
+        "owner_name": "Owner 58",
+        "shelter_name": "Golden Hearts Pet Sanctuary",
+        "contact": "Shelter Hotline: (555) 123-4057",
+        "description": "A lovely Bulldog. Friendly and loves to play!",
+        "breed": "Bulldog",
+        "age": "8 years",
+        "location": "789 Pine Blvd, Chicago, USA",
+        "local_image": "A1744860959082.jpg"
+    },
+    {
+        "name": "Buddy 59",
+        "gender": "Male",
+        "owner_name": "Owner 59",
+        "shelter_name": "Safe Haven Animal Rescue",
+        "contact": "Shelter Hotline: (555) 123-4058",
+        "description": "A lovely Beagle. Friendly and loves to play!",
+        "breed": "Beagle",
+        "age": "9 years",
+        "location": "101 Cedar Lane, Houston, USA",
+        "local_image": "A1744860955243.jpg"
+    },
+    {
+        "name": "Buddy 60",
+        "gender": "Female",
+        "owner_name": "Owner 60",
+        "shelter_name": "Loving Friends Pet Center",
+        "contact": "Shelter Hotline: (555) 123-4059",
+        "description": "A lovely Siamese Cat. Friendly and loves to play!",
+        "breed": "Siamese Cat",
+        "age": "10 years",
+        "location": "202 Maple Dr, Phoenix, USA",
+        "local_image": "A818163.jpg"
     }
-}
+]

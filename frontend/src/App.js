@@ -16,11 +16,16 @@ function App() {
   const checkDbStatus = async () => {
     try {
       setCheckingDb(true);
-      const response = await axios.get('http://localhost:5003/api/pets');
-      setDbInitialized(response.data && Object.keys(response.data).length > 0);
+      const response = await axios.get('http://localhost:5003/api/pets', {
+        timeout: 5000,
+        retry: 3,
+        retryDelay: 1000
+      });
+      setDbInitialized(response.data && response.data.length > 0);
       setCheckingDb(false);
     } catch (error) {
-      setError('Unable to connect to server. Please make sure the backend service is running.');
+      console.error('Database check error:', error);
+      setError('Cannot connect to server. Please ensure the backend service is running on port 5003.');
       setCheckingDb(false);
     }
   };
@@ -30,7 +35,11 @@ function App() {
     try {
       setLoading(true);
       setError('');
-      const response = await axios.get('http://localhost:5003/api/initialize_db');
+      const response = await axios.get('http://localhost:5003/api/initialize_db', {
+        timeout: 10000,
+        retry: 3,
+        retryDelay: 1000
+      });
 
       if (response.data.status === 'success') {
         setDbInitialized(true);
@@ -41,8 +50,6 @@ function App() {
       }
     } catch (error) {
       console.error('Initialize DB error:', error);
-
-      // Get detailed error message from backend if available
       if (error.response && error.response.data && error.response.data.message) {
         setError(error.response.data.message);
       } else if (error.message && error.message.includes('Network Error')) {
@@ -50,7 +57,6 @@ function App() {
       } else {
         setError('Failed to initialize database. Please try again.');
       }
-
       setLoading(false);
     }
   };
@@ -87,25 +93,17 @@ function App() {
   // Form submission handler
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // Form validation
     if (!file) {
-      setError('Please select a pet image first.');
+      setError('Please select an image first');
       return;
     }
 
-    if (!dbInitialized) {
-      setError('Please initialize the database first.');
-      return;
-    }
+    setLoading(true);
+    setError('');
 
     try {
-      setLoading(true);
-      setError('');
-      setResult(null);
-
       const formData = new FormData();
-      formData.append('file', file);
+      formData.append('image', file);
 
       const response = await axios.post('http://localhost:5003/api/upload', formData, {
         headers: {
@@ -113,32 +111,17 @@ function App() {
         }
       });
 
-      // 处理多个相似宠物的结果
-      setResult({
-        similarPets: response.data.similar_pets.map(pet => ({
-          similarity: pet.similarity_score,
-          similar_image: pet.filename,
-          shelter_name: pet.pet_info.shelter_name || 'Unknown',
-          location: pet.pet_info.location || 'Unknown',
-          contact: pet.pet_info.contact || 'Unknown',
-          pet_name: pet.pet_info.name || 'Unknown',
-          gender: pet.pet_info.gender || 'Unknown',
-          breed: pet.pet_info.breed || 'Unknown',
-          age: pet.pet_info.age || 'Unknown'
-        }))
-      });
-
-      setLoading(false);
-
-      // Scroll to results area
-      if (resultRef.current) {
-        setTimeout(() => {
-          resultRef.current.scrollIntoView({ behavior: 'smooth' });
-        }, 100);
+      if (response.data.status === 'success') {
+        const petInfo = response.data.pet_infos[0];
+        const similarityScore = response.data.similar_pets[0][1];
+        setResult({ ...petInfo, similarity: similarityScore });
+      } else {
+        setError(response.data.message || 'Failed to process image');
       }
     } catch (error) {
       console.error('Upload error:', error);
-      setError('Failed to upload image. Please try again.');
+      setError('An error occurred while processing your request');
+    } finally {
       setLoading(false);
     }
   };
@@ -269,61 +252,79 @@ function App() {
               </div>
             ) : result ? (
               <div className="result-content">
-                {result.similarPets.slice(0, 1).map((pet, index) => (
-                  <div key={index} className="similar-pet-item">
-                    <div className="similarity-badge">
-                      {Math.round(pet.similarity * 100)}% Match
+                <div className="similar-pet-item">
+                  <div className="image-comparison">
+                    <div className="result-image-container">
+                      <div className="image-box">
+                        <img src={preview} alt="Your pet" />
+                      </div>
+                      <p className="image-label">Your Pet</p>
                     </div>
 
-                    <div className="image-comparison">
-                      <div className="result-image-container">
-                        <div className="image-box">
-                          <img src={preview} alt="Your pet" />
-                        </div>
-                        <p className="image-label">Your Pet</p>
-                      </div>
+                    <div className="arrow">→</div>
 
-                      <div className="arrow">→</div>
-
-                      <div className="result-image-container">
-                        <div className="image-box">
-                          <img src={`http://localhost:5003/database/${pet.similar_image}`} alt={`Similar pet`} />
-                        </div>
-                        <p className="image-label">Most Similar Pet</p>
+                    <div className="result-image-container">
+                      <div className="image-box">
+                        <img src={`http://localhost:5003/database/24petconnect/images/${result.local_image}`} alt={`Similar pet`} />
                       </div>
+                      <p className="image-label">Most Similar Pet</p>
                     </div>
+                  </div>
 
-                    <div className="result-details">
-                      <h3>Pet Information</h3>
-                      <div className="pet-info">
-                        <div className="info-item">
-                          <span className="info-label">Name</span>
-                          <span className="info-value">{pet.pet_name}</span>
-                        </div>
-                        <div className="info-item">
-                          <span className="info-label">Gender</span>
-                          <span className="info-value">{pet.gender}</span>
-                        </div>
-                        <div className="info-item">
-                          <span className="info-label">Age</span>
-                          <span className="info-value">{pet.age}</span>
-                        </div>
-                        <div className="info-item">
-                          <span className="info-label">Shelter</span>
-                          <span className="info-value">{pet.shelter_name}</span>
-                        </div>
-                        <div className="info-item">
-                          <span className="info-label">Location</span>
-                          <span className="info-value">{pet.location}</span>
-                        </div>
-                        <div className="info-item">
-                          <span className="info-label">Contact</span>
-                          <span className="info-value">{pet.contact}</span>
-                        </div>
+                  <div className="result-details">
+                    <h3>Pet Information</h3>
+                    <div className="similarity-score">
+                      <span className="score-label">Similarity Score</span>
+                      <span className="score-value">{result.similarity ? `${(result.similarity * 100).toFixed(1)}%` : 'N/A'}</span>
+                    </div>
+                    <div className="pet-info">
+                      <div className="info-item">
+                        <span className="info-label">Name</span>
+                        <span className="info-value">{result.name}</span>
+                      </div>
+                      <div className="info-item">
+                        <span className="info-label">Gender</span>
+                        <span className="info-value">{result.gender}</span>
+                      </div>
+                      <div className="info-item">
+                        <span className="info-label">Age</span>
+                        <span className="info-value">{result.age}</span>
+                      </div>
+                      <div className="info-item">
+                        <span className="info-label">Breed</span>
+                        <span className="info-value">{result.breed}</span>
+                      </div>
+                      <div className="info-item">
+                        <span className="info-label">Location</span>
+                        <span className="info-value">{result.location}</span>
+                      </div>
+                      <div className="info-item">
+                        <span className="info-label">Address</span>
+                        <span className="info-value">{result.address}</span>
+                      </div>
+                      <div className="info-item">
+                        <span className="info-label">Phone</span>
+                        <span className="info-value">{result.phone}</span>
+                      </div>
+                      <div className="info-item">
+                        <span className="info-label">Website</span>
+                        <span className="info-value">{result.website}</span>
+                      </div>
+                      <div className="info-item">
+                        <span className="info-label">Days in Care</span>
+                        <span className="info-value">{result.days_in_care}</span>
+                      </div>
+                      <div className="info-item">
+                        <span className="info-label">Arrival Date</span>
+                        <span className="info-value">{result.arrival_date}</span>
+                      </div>
+                      <div className="info-item">
+                        <span className="info-label">Found Near</span>
+                        <span className="info-value">{result.found_near}</span>
                       </div>
                     </div>
                   </div>
-                ))}
+                </div>
               </div>
             ) : (
               <div className="empty-state-minimal">
